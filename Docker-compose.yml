@@ -1,0 +1,11 @@
+version: "3"
+services:
+  frontend:
+    image: asamidev/frontend:latest
+    ports:
+      - "80:8080"
+
+  backend:
+    image: asamidev/backend:latest
+    ports:
+      - "5000:5000"
